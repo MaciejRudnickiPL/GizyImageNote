@@ -1,0 +1,114 @@
+/*- - - - - - - - - - -Edytor Note - - - - - - */
+
+.editor {
+    min-height: 300px;
+    min-width: 300px;
+    /*background-color: red;*/
+}
+
+.editor_canvas {
+    /*background-color: #1d6bce;*/
+    /*border: solid rebeccapurple 2px;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+notatka dotycząca zdjęcia
+.editor_img {
+    background-color: rebeccapurple;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+}
+
+.editor_form{
+
+}
+
+.editor_toolBox {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 150px;
+    float: left;
+
+}
+
+.editor_image-field {
+    position: relative;
+    min-height: 200px;
+    min-width: 200px;
+
+}
+
+.editor_form {
+    background-color: #ce7b06;
+    width: 100%;
+}
+
+
+.editor_btn {
+    border: none;
+    height: 40px;
+    width: 100%;
+    margin: 2px 0 2px 0;
+
+}
+
+.editor_btn:hover {
+    background-color: #1d6bce;
+}
+
+.editor_btn-small {
+    height: 20px;
+}
+
+.editor_mask {
+    background-color: rgba(19, 42, 104, 0.67);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.editor_note {
+    border: solid steelblue;
+    left: 20px;
+    height: 173px;
+    width: 400px;
+    background-color: steelblue;
+}
+
+.editor_txt {
+    width: 100%;
+    height: 120px;
+}
+
+.editor_text-comment {
+    width: 100%;
+    min-height: 80px;
+}
+
+.editor_note-btn {
+    height: 40px;
+    width: 50%;
+    margin: 2px 0 2px 0;
+    border: solid steelblue 2px;
+}
+
+.editor_note-btn:hover {
+    background-color: #62b9ff;
+}
+
+.editor_file-firld {
+
+}
+
+canvas {
+    cursor: crosshair;
+}
